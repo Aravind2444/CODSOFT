@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+.hero-section {
+    background: url('./motorcycle-cigar-shed-royal-enfield-hd-wallpaper-preview.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 2rem;
+    width: 100%;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #f04e23;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #c23e1c;
+}
+
+
+.about-section {
+    padding: 3rem;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.models-section {
+    padding: 3rem;
+    text-align: center;
+    background: #d8d8d8;
+}
+
+.models-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.model {
+    display: inline-block;
+    width: 30%;
+    margin: 1rem;
+    text-align: center;
+}
+
+.model img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.model h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.model p {
+    color: #555;
+}
+
+
+.cta-section {
+    padding: 3rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #f04e23;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
